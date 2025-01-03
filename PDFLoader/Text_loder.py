@@ -91,7 +91,7 @@ def main(FILE_PATH):
     )
 
     model = ChatOpenAI(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         max_tokens=2048,
         temperature=0.1,
         api_key=api_key
